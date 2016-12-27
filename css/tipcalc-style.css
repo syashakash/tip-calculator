@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher');
+@import url('https://fonts.googleapis.com/css?family=Alice');
+body {
+    background-image: url(http://eatallnite.com/gurgaon/wp-content/uploads/2015/01/chicken-biryani-from-Eatallnite.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    width : 400px;
+    margin: 65px auto 0;
+    padding : 40px;
+    box-sizing: border-box;
+    background-color: rgba(78, 67, 56, 0.7);
+    box-shadow: 0 5px 10px -4px #000;
+    -webkit-border-radius : 5px;
+    -moz-border-radius : 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    margin : 0 0 15px;
+    padding: 0 0 15px;
+    border-bottom: solid 1px #ddd;
+    font-family: 'Philosopher', sans-serif;
+    color: azure;
+}
+
+form {
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 20px 0;
+    font-weight: bold;
+}
+form input, form select {
+    margin: 2px;
+    padding: 4px;
+}
+
+form input[type="text"] {
+    width: 80px;
+}
+button {
+    background: #f49242;
+    color: aliceblue;
+    border: none;
+    border-bottom: solid 4px #222;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 30px;
+    width : 100%;
+    font-family: 'Alice', serif;
+    
+}
+
+button:hover {
+    background: #ffba82;
+    border-bottom-color: #111;
+}
+
+button:active {
+    position: relative;
+    top:1px;
+}
+
+#totalTip {
+    font-size: 45px;
+    margin-top: 25px;
+}
+
+#totalTip:before {
+    content: "tip amount";
+    font-size: 10px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+
+#totalTip sup {
+    font-size: 14px;
+    top: -8px;
+}
+
+#totalTip small {
+    font-size: 10px;
+    font-weight: bold;
+    display: inline;
+}
